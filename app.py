@@ -50,4 +50,5 @@ def api():
 if __name__ == '__main__':
     print(" Iniciando aplicación Docker...")
     print(" Aplicación disponible en: http://localhost:5000")
+    print("Cambio pull reuqes")
     app.run(host='0.0.0.0', port=5000, debug=True)
